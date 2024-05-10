@@ -1,0 +1,60 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+header{
+    padding: 100px;
+}
+.rare{
+    border-radius: 30px;
+}
+.header-wrapper>div>div>img{
+padding: 20px;
+margin-top: 20px;
+}
+.header-wrapper>div>div>h1,
+.header-wrapper>div>div>p{
+    padding: 20px;
+}
+.header-wrapper>div>div>p{
+    color: rgb(212, 212, 212);
+}
+
+.header-wrapper>div>div>button{
+margin-top: 30px;
+margin-bottom: 35px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.header-wrapper>div>div>h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.header-wrapper>div>div>p{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header-wrapper>div>div>button{
+padding: 8px 15px;
+border-radius: 25px;
+background-color: transparent ;
+color: white;
+border: 2px solid white;
+font-weight: 500;
+}
+.header-wrapper>div>div:first-child{
+background-color: hsl(31, 77%, 52%);
+color: white;
+}
+.header-wrapper>div>div:nth-child(2){
+background-color: hsl(184, 100%, 22%);
+color: white;
+}
+.header-wrapper>div>div:last-child{
+   background-color: hsl(179, 100%, 13%);
+   color: white;
+}
